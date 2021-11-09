@@ -50,7 +50,7 @@ a.active,a:hover{
     line-height: 60px;
     margin-right: 30px;
     cursor: pointer;
-    display: none;
+    
 }
 #check{
 display: none;
