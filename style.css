@@ -68,7 +68,7 @@ nav ul li a{
             background-color: dimgray;
             text-align: center;
             left: -100%;
-            transition: all .9s;
+            transition: all .4s;
             }
                 nav ul li {
                 display: block;
