@@ -35,7 +35,7 @@ body{
 .navbar ul li a{
     margin: 15px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 15px;
     text-transform: uppercase;
 }
