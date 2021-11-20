@@ -4,6 +4,11 @@
     box-sizing: border-box;
 
 }
+
+html{
+
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgba(105, 105, 105, 0.151);
 
@@ -33,10 +38,10 @@ body{
 
 }
 .navbar ul li a{
-    margin: 15px;
+    margin: 5px;
     text-decoration: none;
     color:white;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     
 }
@@ -101,10 +106,27 @@ background-color: skyblue;
     font-size: 12px;
 }
 
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
 @media(max-width:1000px){
 
+
+    .last{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    h2{
+        font-size: 13   px;
+    }
     .navbar ul{
-        background-color: rgba(137, 43, 226, 0.288);
+        background-color: darkgrey;
         text-align: center;
         position: fixed;
         width: 100%;
